@@ -29,11 +29,7 @@ import com.snailxr.base.task.QuartzJobFactoryDisallowConcurrentExecution;
 import com.snailxr.base.task.dao.ScheduleJobMapper;
 import com.snailxr.base.task.domain.ScheduleJob;
 
-/**
- * @Description: 计划任务管理
- * @author chenjianlin
- * @date 2014年4月25日 下午2:43:54
- */
+
 @Service
 public class JobTaskService {
     public final Logger log = Logger.getLogger(this.getClass());
